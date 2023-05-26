@@ -1,0 +1,171 @@
+/* Style sheet created by: Alex Ko */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FF90DD;
+	display: block;	
+	}
+	
+#adopt {
+		width: 100%;
+}
+
+/* style to create a fluid image */
+img {
+	float: left;
+	margin-top: 2%;
+}
+
+/* Style to left align header */
+header {
+	text-align: left;
+}
+
+header img {
+		width: 10%;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FF90DD;
+}
+
+#main {
+	background-color: #FF820D;
+	text-align: left;
+}
+
+/* Style for the nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Styles specifies padding and margins for unordered list      main tag background */
+nav ul {
+	padding: 0;
+	margin-top: .25em;
+	margin-bottom: 3em;
+	
+}
+	
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding TOP BAR*/
+nav li {
+	margin-top: 4em;
+	display: inline-block;
+	width: 14%;
+	background-color: #FFFFFF;
+	border-radius: 20em;
+	list-style-type: none;
+	padding: 1em;
+	opacity: 80%
+}
+
+#adopt {
+	width: 500%;
+}
+
+
+li {
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	color: #000000;
+}
+
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 1em;
+	padding: 1em;
+	border-radius: 2em 0 2em 0;
+	background-color: #FFFFFF;
+	opacity: 0.85;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin footer @copyright */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 10em;
+	color: #FFFFFF;
+}
+
+/* Style for anchor elements within the footer element */
+footer a {
+	color: #FFFFFF;
+	text-decoration: none; 	
+}
+
+/* style for images within the figure element*/
+figure img {
+	background-color: #1D1D1C; 
+	height: 8em;
+	width: 28%;
+	margin: 1%;
+	padding: 1%;
+}
+
+section {
+	margin-left: 1em;
+	padding-bottom: 5em;
+	float: left;
+	
+}
+
+/* Style for anchor element within the section element */
+section  {
+	background-color: transparent;
+	color: #1D1D1C;
+	font-weight: normal;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.animalCard {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.animalCard img {
+  max-width: 10%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.animalName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.animalDescription {
+  margin-bottom: 10px;
+}
+
+.animalAdoptButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.animalAdoptButton:hover {
+  background-color: #555;
+}
